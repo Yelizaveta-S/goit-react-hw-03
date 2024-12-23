@@ -1,0 +1,28 @@
+.listItem {
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+@media (prefers-color-scheme: light) {
+  .listItem {
+    border-color: #000;
+  }
+}
+
+.infoItem {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.deleteBtn {
+  padding: 0 10px;
+  height: 35px;
+}
